@@ -38,7 +38,10 @@ https://en.wikipedia.org/w/api.php?action=query&format=json&generator=search&pro
 */
 
   function gatherData(data) {
-    // console.log(data);
+    /*console.log("this function takes JSON Data already fetched and parses it 
+    so that it can separate its main parts into variables that are joined/added to the html for 
+    display");
+    */
     // initialise some variables
     let theData = "";
     let langLinks = "";
